@@ -1,0 +1,8 @@
+<suite name="Suite">
+    <test name = "Test" parallel = "classes" thread-count="2">
+        <classes>
+            <class name="com.selenium.test.Chrome"></class>
+            <class name="com.selenium.test.Firefox"></class>
+        </classes>
+    </test>
+</suite>
